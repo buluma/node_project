@@ -12,5 +12,8 @@
   ],
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
   }
 }
