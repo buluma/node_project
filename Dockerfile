@@ -14,4 +14,6 @@ COPY --chown=node:node . .
 
 EXPOSE 8080
 
+HEALTHCHECK CMD curl --fail http://localhost:8080 || exit 1
+
 CMD [ "node", "app.js" ]
